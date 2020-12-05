@@ -1,6 +1,6 @@
-import { IRouteTypes } from './Root/type';
+import { RouteProps } from 'react-router';
 
 export interface IProps {
-    routes: IRouteTypes[];
-    basePath: string;
+    readonly routes: RouteProps[];
+    readonly basePath?: string;
 }

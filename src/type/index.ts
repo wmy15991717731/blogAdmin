@@ -1,3 +1,3 @@
-export interface IRouteTypes {
-    path: string;
+export interface ICO {
+    [propsname: string]: any;
 }
